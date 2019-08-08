@@ -12,9 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
+        let sortArray = SortAlgorithm.quickSort(sortArray: [9,1,4,5,6,7,2])
+        print(sortArray)
     }
 
-
+    
 }
 
